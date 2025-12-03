@@ -1,5 +1,76 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(5, 117, 5, 0.897);
+    
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: 5px;
+    border-color: black;
+    font-size: 70px;
+}
+
+.top-suit {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.value {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.bottom-suit {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.card.heart {
+    color: red;
+}
+
+.card.diamond {
+    color: red;
+}
+
+.card.spade {
+    color: black;
+}
+
+.card.club {
+    color: black;
 }
