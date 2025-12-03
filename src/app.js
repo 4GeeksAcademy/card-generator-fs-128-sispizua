@@ -54,4 +54,7 @@ function generatorRandomCard(){
 }
  window.onload = () => {
   generatorRandomCard();
+
+  const button =document.getElementById("random-card");
+  button.addEventListener("click", generatorRandomCard);
 };
